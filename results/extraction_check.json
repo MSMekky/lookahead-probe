@@ -1,0 +1,8 @@
+{
+  "repo": "Diamegs/PIT-1B-201812",
+  "n": 8,
+  "hooks_vs_hidden_states_min_cos": 0.999999463558197,
+  "truncated_vs_full_min_cos": 0.9999998807907104,
+  "fp16_finite": true,
+  "fp16_vs_fp32_min_cos_by_layer": "fp32 does not fit in VRAM"
+}

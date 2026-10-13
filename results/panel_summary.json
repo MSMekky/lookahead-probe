@@ -1,0 +1,14 @@
+{
+  "items": 5327,
+  "coins": 85,
+  "weeks": 156,
+  "coins_per_week_median": 34.0,
+  "items_by_year": {
+    "2021": 1404,
+    "2022": 1869,
+    "2023": 2054
+  },
+  "headlines_per_item_median": 3.0,
+  "cue_share": 0.3793880232776422,
+  "catalogue_items": 5
+}

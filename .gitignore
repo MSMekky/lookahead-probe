@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+/data/
+/_runs/
+/RUN.bat
+/WATCH.bat
+results/*.npy
+.pytest_cache/
+*.egg-info/

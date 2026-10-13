@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lookahead-probe"
+version = "0.1.0"
+description = "White-box detection of lookahead bias in financial LLMs: probes, PVI and a stacked event study across point-in-time model vintages"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy", "pyarrow", "matplotlib"]
+
+[project.optional-dependencies]
+gpu = ["torch>=2.3", "transformers>=4.56,<5", "safetensors", "accelerate", "huggingface_hub"]
+dev = ["pytest"]
+
+[project.scripts]
+lookahead = "lookahead.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
